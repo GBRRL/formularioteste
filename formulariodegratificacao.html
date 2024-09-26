@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Gratificação</title>
+</head>
+<body>
+    
+    <h1>Aumento de Salário</h1>
+    <form methad="GET" action="teste.formulario">
+      Nome do Proprietario:  <input type="text" name="nome"> 
+      <br>
+      <br>
+        Colaboradores: 
+        <input type="radio" name="Colaboradores" value="g"> Gabriel
+        <input type="radio" name="Colaboradores" value="v"> Vinicius
+        <input type="radio" name="Colaboradores" value="w"> Wendson
+        <input type="radio" name="Colaboradores" value="m"> Marcilene
+        <br>
+        <br>
+        Valor do Aumento: <select name="valor">
+            <option>ESCOLHA O VALOR</option>
+            <option>R$100</option>
+            <option>R$200</option>
+            <option>R$300</option>
+        </select>
+        <br>
+        <br>
+        Gratificação Bonus:
+        <input type="checkbox" name="Folga" value="sim"> Folga
+        <input type="checkbox" name="Cargahoráriamenor" value="sim"> Carga horária menor
+        <input type="checkbox" name="%comissãomaior" value="sim"> % Comissão Maior
+        <br>
+        <br>
+        Data da Gratificação: 
+        <input type="date" name="datadagratificacao">
+        <br>
+        <br>
+        Deixe uma mensagem de agradecimento para seus colaboradores: <br>
+        <textarea name="mensagemagradecimento" rows="5" cols="30"></textarea>
+        <br>
+        <br>
+        <input type="submit">
+         
+    </form>
+        
+    
+</body>
+</html>
